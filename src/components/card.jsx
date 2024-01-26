@@ -1,16 +1,19 @@
 import React from "react";
+import './Card.css';
 
 const Card = (card) => {
     return (
         <div className="Card">
             <div className="card-title">{card.name}</div>
-            <img className="card-img" src={card.img} height='100px' weight='100px'/>
+            <div className="card-img-container">
+                <img className="card-img" src={card.img} alt={card.name} />
+            </div>
             <div className="card-bottom">
                 <div className="card-desc">{card.desc}</div>
-                <a href={card.url}>Go To Site</a>
+                <a  className='card-btn' href={card.url}>Go To Site</a>
             </div>
         </div>
-    )
+    );
 }
 
 export default Card;
