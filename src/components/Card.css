@@ -1,35 +1,48 @@
 .Card {
     border: 1px solid #ddd;
-    padding: 10px;
+    padding: 0px;
     text-align: center;
     border-radius: 12px;
+    padding-bottom: 1%;
+    background-color: rgb(61,92,61);
+    box-shadow: 0 0 10px #78b967;
 }
 
 .card-title {
     font-size: 22pt;
     font-weight: bold;
     padding-bottom: 10px;
-    border-bottom: solid 1px black;
-    box-shadow: 0px 6px 8px rgba(31, 31, 31, 0.5);
-    border-radius: 12px;
+    background-color: rgb(61,92,61);
+    border-bottom: solid 1px rgb(50, 129, 60);
+    box-shadow: 0px 8px 8px rgba(50, 129, 60, 0.6);
+    margin-top: 10px;
+    color: rgba(180, 233, 182, 0.801)
 }
 
 .card-img-container {
-    width: 100%;
+    background-color: rgb(77, 117, 77);
+    background: radial-gradient(circle,#8182df7a,rgb(178, 231, 128));
+    width: 98%;
     height: 190px; /* Set your desired height for the card */
     overflow: hidden;
     position: relative;
     padding-top: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 .card-img {
-    width: 100%;
+    width: 75%;
     height: 100%;
     object-fit: contain; /* Maintain aspect ratio and cover the container */
 }
 
 .card-desc {
     margin-bottom: 3%;
+    padding: 1%;
+    padding-top: 5%;
+    margin-bottom: 4%;
+    color: rgba(180, 233, 182, 0.801)
 }
 
 .card-btn {
@@ -38,4 +51,15 @@
     font-weight: bold;
     padding: 2%;
     color: rgb(133, 216, 117);
+}
+
+.Card:hover {
+    box-shadow: 0 0 20px #78b967;
+}
+
+.card-btn:hover {
+    border: solid 1px #52cac0;
+    background-color: #52cac0;
+    color: #175f4f;
+    box-shadow: 0 0 10px #52cac0;
 }
