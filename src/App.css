@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Mono', serif;
   color: rgba(180, 233, 182, 0.801);
   background-color: rgb(61,92,61);
   background: linear-gradient(to bottom, #3b6144, #5b865b);
@@ -36,7 +36,6 @@ body {
 
 .card-img{
   padding-bottom: 2%;
-  
 }
 
 .card-desc {

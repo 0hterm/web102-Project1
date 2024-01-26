@@ -23,34 +23,34 @@ const Board = () => {
             desc='The SD Times focus on news related to software development and provide a range of information from survey results to AI news.'
             />
             <Card
-            name='Wired'
-            url='https://www.wired.com'
-            img='https://bloomsoil.com/wp-content/uploads/2022/10/wiredLogo.png'
-            desc='Wired stays on the forefront of providing readers with exciting news regarding everything in the scope of technology.'
+            name='SWE Daily'
+            url='https://softwareengineeringdaily.com'
+            img='https://play-lh.googleusercontent.com/VWaFdsPlMSMrxflmJqrFXqwnJztQ8tqffmCvXXK1MO2nc8_i5zj8-HRlAusTPnwpYg'
+            desc='SWE Daily explores all the new trends in software and talk about important software you may have never heard of.'
             />
             <Card
-            name='Wired'
-            url='https://www.wired.com'
-            img='https://bloomsoil.com/wp-content/uploads/2022/10/wiredLogo.png'
-            desc='Wired stays on the forefront of providing readers with exciting news regarding everything in the scope of technology.'
+            name='The Verge: Tech'
+            url='https://www.theverge.com/tech'
+            img='https://images.prismic.io/brandfetch/a73de403-27ac-4d2f-a34e-02ef71796960_3.png?auto=compress,format'
+            desc='The Verge covers a broad spectrum of tech news. Check it out!'
             />
             <Card
-            name='Wired'
-            url='https://www.wired.com'
-            img='https://bloomsoil.com/wp-content/uploads/2022/10/wiredLogo.png'
-            desc='Wired stays on the forefront of providing readers with exciting news regarding everything in the scope of technology.'
+            name='GeekWire'
+            url='https://www.geekwire.com'
+            img='https://upload.wikimedia.org/wikipedia/en/archive/9/99/20170102164314%21GeekWire-logo.png'
+            desc='GeekWire covers a broad spectrum of tech news. Check it out!'
             />
             <Card
-            name='Wired'
-            url='https://www.wired.com'
-            img='https://bloomsoil.com/wp-content/uploads/2022/10/wiredLogo.png'
-            desc='Wired stays on the forefront of providing readers with exciting news regarding everything in the scope of technology.'
+            name='TechCrunch'
+            url='https://techcrunch.com'
+            img='https://scet.berkeley.edu/wp-content/uploads/techcrunch-logo.png'
+            desc='TechCrunch covers a broad spectrum of tech news. Check it out!'
             />
             <Card
-            name='Wired'
-            url='https://www.wired.com'
-            img='https://bloomsoil.com/wp-content/uploads/2022/10/wiredLogo.png'
-            desc='Wired stays on the forefront of providing readers with exciting news regarding everything in the scope of technology.'
+            name='ZDNet'
+            url='https://www.zdnet.com'
+            img='https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/ZDNet_logo_2022.svg/1200px-ZDNet_logo_2022.svg.png'
+            desc='ZDNet covers a broad spectrum of tech news. Check it out!'
             />
             
         </div>
