@@ -4,12 +4,12 @@
   padding: 2rem;
   text-align: center;
   font-family: 'Roboto Mono', serif;
-  background: linear-gradient(to bottom, #3b6144, #4f8ad6);
+  background: linear-gradient(to bottom, #3b6144, #000000);
 }
 
 
 body {
-  background: linear-gradient(to bottom, #3b6144, #4f8ad6);
+  background: linear-gradient(to bottom, #3b6144, #000000);
   margin: 0;
   display: flex;
   place-items: center;
@@ -41,9 +41,9 @@ body {
 }
 
 .head-wrapper {
-  background-color: #4f8ad6;
+  background-color: #6ea37c;
   height: 150px;
   padding: 1%;
-  color: rgb(9, 63, 94);
+  color: rgb(35, 71, 62);
   border-radius: 100px;
 }
