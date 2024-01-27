@@ -52,7 +52,18 @@ const Board = () => {
             img='https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/ZDNet_logo_2022.svg/1200px-ZDNet_logo_2022.svg.png'
             desc='ZDNet covers a broad spectrum of tech news. Check it out!'
             />
-            
+            <Card
+            name='TechNewsWorld'
+            url='https://www.technewsworld.com'
+            img='https://technewsworld.com/wp-content/uploads/sites/3/2021/04/TNW-Logo-580x200-1.png'
+            desc='TechNewsWorld covers a broad spectrum of tech news. Check it out!'
+            />
+            <Card
+            name='Fast Company: Tech'
+            url='https://www.fastcompany.com/technology'
+            img='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Fast_Company_logo.svg/2560px-Fast_Company_logo.svg.png'
+            desc='Fast Company: Tech covers a broad spectrum of tech news. Check it out!'
+            />
         </div>
     )
 }

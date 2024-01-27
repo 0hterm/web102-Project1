@@ -4,14 +4,12 @@
   padding: 2rem;
   text-align: center;
   font-family: 'Roboto Mono', serif;
-  color: rgba(180, 233, 182, 0.801);
-  background-color: rgb(61,92,61);
-  background: linear-gradient(to bottom, #3b6144, #5b865b);
+  background: linear-gradient(to bottom, #3b6144, #4f8ad6);
 }
 
 
 body {
-  background: linear-gradient(to bottom, #3b6144, #5b865b);
+  background: linear-gradient(to bottom, #3b6144, #4f8ad6);
   margin: 0;
   display: flex;
   place-items: center;
@@ -40,4 +38,12 @@ body {
 
 .card-desc {
   padding-bottom: 2% ;
+}
+
+.head-wrapper {
+  background-color: #4f8ad6;
+  height: 150px;
+  padding: 1%;
+  color: rgb(9, 63, 94);
+  border-radius: 100px;
 }
